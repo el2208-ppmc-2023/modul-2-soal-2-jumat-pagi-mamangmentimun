@@ -25,15 +25,14 @@ int main()
     FILE *diary; //pointer of type file
 
     printf("Masukkan nama file diary : ");
-    scanf("%s", &namafile);
+    scanf("%s", namafile);
     printf("Masukkan tanggal hari ini (ex: 2 Februari 2023 -> 02022023) : ");
-    scanf("%s", &tempTanggal);
+    scanf("%s", tempTanggal);
 
     diary = fopen(namafile, "r"); //buka file mode read only
 
     if (diary == NULL){ //jika file tidak ditemukan
         printf("Error : file invalid\n");
-        fclose(diary);
         return 0;
     }
 
