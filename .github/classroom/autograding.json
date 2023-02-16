@@ -5,7 +5,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "diary1.txt\r\n01022023",
-      "output": "RXCS↕R[AQ↕\\IS‼s]TP",
+      "output": "RXCS\u0012R[AQ\u0012\\IS\u0013s]TP",
       "comparison": "included",
       "timeout": 10,
       "points": 10
