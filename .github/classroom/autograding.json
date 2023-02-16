@@ -15,7 +15,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "diary1.txt\r\n12122022",
-      "output": "S[BS↕S[AQ↕\\IS↕s\\US",
+      "output": "S[BS\u0012S[AQ\u0012\\IS\u0012s\\US",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -25,7 +25,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "diary1.txt\r\n10102022",
-      "output": "SYBQ↕SYAQ↕\\IS↕s\\UQ",
+      "output": "SYBQ\u0012SYAQ\u0012\\IS\u0012s\\UQ",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -35,7 +35,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "diary2.txt\r\n12122022",
-      "output": "PYD\r\nYP_G►KS►S\r\nFU_S__D\r\n[SG\\G↕HS",
+      "output": "PYD?\r\nZS_E\u0012KQ\u0012Q?\r\nFW\\S__G=\r\nXPG]G\u0012IS",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -45,7 +45,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "diary2.txt\r\n01012023",
-      "output": "QZE\r\nZQ\\G►HS►S\r\nFU_R^\\E\r\nZRD]D↕IP",
+      "output": "QZE<\r\n[P_E\u0012KQ\u0012Q?\r\nFV]P^\\G=\r\nYSG]G\u0013IS",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -55,7 +55,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "diary2.txt\r\n01012022",
-      "output": "QZE\r\nZQ\\G►HS►S\r\nFU_S^\\E\r\n[RD]D↕IP",
+      "output": "QZE<\r\n[P_E\u0012KQ\u0012Q?\r\nFW]P^\\G=\r\nYSG]G\u0012I",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -65,7 +65,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "diary3.txt\r\n02102022",
-      "output": "[W\\Q@Y\\↕S[G↕^[XSE►F^^[►]W^K]^FT[↕T[Y►",
+      "output": "[W\\Q@Y\\\u0012S[G\u0012^[XSE\u0010F^^[\u0010]W^K]^FT[\u0012T[Y\u0010",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -75,7 +75,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "diary3.txt\r\n01012023",
-      "output": "[T]P@Y\\‼S[G‼^ZXPD◄E__[►\\W^K\\^EUZ↕TXX◄♀",
+      "output": "[T]P@Y\\\u0013S[G\u0013^ZXPD\u0011E__[\u0010\\W^K\\^EUZ\u0012TXX\u0011",
       "comparison": "included",
       "timeout": 10,
       "points": 10
@@ -85,7 +85,7 @@
       "setup": "make main",
       "run": "./main",
       "input": "diary4.txt\r\n28102022",
-      "output": "SZRTWVUZ[RZ\\_^]B↕W",
+      "output": "SZRTWVUZ[RZ\\_^]B\u0012W",
       "comparison": "included",
       "timeout": 10,
       "points": 10
